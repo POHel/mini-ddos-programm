@@ -1,4 +1,5 @@
 #!/bin/sh
+
 #version 3.5
 #by SKATT
 import os
@@ -15,14 +16,14 @@ print('Импортирую цвета...')
 from colorama import Fore
 colorama.init()
 print('Запуск программы...')
-version = 'v3.5'
+version = 'v3.0'
 print(version)
 print(Fore.GREEN + 'created bySKATT')
 time.sleep(1)
 
 print(Fore.YELLOW + 'Проверка Обновлений')
 VERSION_URL = 'https://api.github.com/repos/POHel/mini-ddos-programm/releases/latest'
-DOWNLOAD_URL = 'https://github.com/POHel/mini-ddos-programm/archive/refs/tags/v3.5.zip'
+DOWNLOAD_URL = 'https://github.com/POHel/mini-ddos-programm/archive/refs/heads/main.zip'
 
 def update_program(owner, repo, file):
     response = requests.get(VERSION_URL.format(owner=owner, repo=repo)).json()
@@ -38,7 +39,7 @@ def update_program(owner, repo, file):
         print(Fore.GREEN + 'Установлена самая последняя версия')
 
 if __name__ == '__main__':
-    update_program('POHel', 'mini-ddos-programm', 'ddos.py')
+    update_program('POHel', 'mini-ddos-programm', 'main.zip')
 time.sleep(1)
 
 print(Fore.BLUE + 'Определяю OS...')
