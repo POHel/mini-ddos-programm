@@ -1,3 +1,5 @@
+#version 3.5
+#by SKATT
 import os
 print('Установка дополнительных модулей...')
 os.system('pip install requests')
