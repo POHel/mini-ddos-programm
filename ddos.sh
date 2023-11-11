@@ -1,6 +1,6 @@
 #!/bin/sh
 
-#version 3.5
+#version 3.7
 #by SKATT
 import os
 print('Установка дополнительных модулей...')
@@ -16,7 +16,7 @@ print('Импортирую цвета...')
 from colorama import Fore
 colorama.init()
 print('Запуск программы...')
-version = 'v3.5'
+version = 'v3.7'
 print(version)
 print(Fore.GREEN + 'created bySKATT')
 time.sleep(1)
@@ -50,6 +50,16 @@ if os.name == 'nt':
     os.system('cls')
 else:
     os.system('clear')
+print(Fore.RED + '''
+
+                         ▄█▀▀▀█▄████▀▀▀██▄   ▄▄█▀▀██▄  ▄█▀▀▀█▄█
+                        ▄██    ▀█ ██    ▀██▄██▀    ▀██▄██    ▀█
+                        ▀███▄     ██     ▀███▀      ▀█████▄
+                          ▀█████▄ ██      ███        ██ ▀█████▄
+                        ▄     ▀██ ██     ▄███▄      ▄██     ▀██
+                        ██     ██ ██    ▄██▀██▄    ▄██▀█     ██
+                        █▀█████▀▄████████▀   ▀▀████▀▀ █▀█████▀
+''')
 print(Fore.GREEN + 'created bySKATT')
 print(Fore.BLUE + 'Ваша ос: ', os.name)
 print(version)
