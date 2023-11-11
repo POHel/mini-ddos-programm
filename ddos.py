@@ -15,7 +15,7 @@ print('Импортирую цвета...')
 from colorama import Fore
 colorama.init()
 print('Запуск программы...')
-version = 'v3.0'
+version = 'v3.5'
 print(version)
 print(Fore.GREEN + 'created bySKATT')
 time.sleep(1)
