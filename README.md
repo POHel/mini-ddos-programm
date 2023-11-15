@@ -22,9 +22,9 @@
 # Установка
 
 1. Скопируйте репозиторий:
-'''
+```
 git clone https://github.com/POHel/mini-ddos-programm.git
-'''
+```
 
 3. Запустите приложение: 
 ddos.py
