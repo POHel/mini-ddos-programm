@@ -19,14 +19,24 @@
 
 *Fake ip-якобы подменяет ваш ip адресс(но он не работает пока что) и нажмите enter
 
-# Установка
-
+# Инструкция по становке
+-Для Termux или Linux
 1. Скопируйте репозиторий:
 ```
 git clone https://github.com/POHel/mini-ddos-programm.git
 ```
-
-3. Запустите приложение: 
-ddos.py
+2. Перейдите в каталог:
+```
+cd mini-ddos-programm
+```
+3. Запустите приложение:
+```
+python ddos.py
+```
 или
-ddos.sh
+```
+./ddos.sh
+```
+
+
+
