@@ -27,7 +27,7 @@ git clone https://github.com/POHel/mini-ddos-programm.git
 ```
 2. Перейдите в каталог:
 ```
-cd mini-ddos-programm
+cd main
 ```
 3. Запустите приложение:
 ```
