@@ -18,7 +18,7 @@
 *Ip - просто введите ip сервера который вам нужно задудосить и нажмите enter
 
 # Инструкция по становке
--Для Termux или Linux
+--Для Termux или Linux
 1. Скопируйте репозиторий:
 ```
 git clone https://github.com/POHel/mini-ddos-programm.git
@@ -36,7 +36,8 @@ python ddos.py
 ./ddos.sh
 ```
 
--Для Windows
+--Для Windows
+
 1.Скачайте репозиторий:
 Нажмите на зелёную кнопу <code> которая находится над файлами
 Затем нажмите на 'Download ZIP'
