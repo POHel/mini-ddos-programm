@@ -25,18 +25,13 @@
 git clone https://github.com/POHel/mini-ddos-programm.git
 ```
 
-2.Разархивируйте файл
-```
-unzip main.zip
-```
-
-3. Перейдите в каталог:
+2. Перейдите в каталог:
 
 ```
 cd mini-ddos-programm
 ```
 
-4. Запустите приложение:
+3. Запустите приложение:
    
 ```
 python ddos.py
